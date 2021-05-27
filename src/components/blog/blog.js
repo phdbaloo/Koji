@@ -28,9 +28,7 @@ export default function Blog() {
   
   return(
       <div className='blog-body'>
-        {data.map(post => (<Posts key={post.id} passData={post} />))}
-        
-            
+        {data.map(post => (<Posts key={post.id} passData={post} />))}  
       </div>
   );
 }
