@@ -3,6 +3,7 @@
 Only extra library, from basic CRA, used is axios to interact with the API
 
 [X] Create Blog Component to house API Call
+
 [X] Map over the Array gotten from response call into Posts
 
 [x] Posts Component
