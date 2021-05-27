@@ -1,0 +1,11 @@
+.blog-body {
+  width: 60%;
+  margin: auto;
+  padding: 2vh 0;
+  color: var(--textcolor);
+}
+@media (max-width: 1000px) {
+  .blog-body {
+    width: 70vw;
+  }
+}

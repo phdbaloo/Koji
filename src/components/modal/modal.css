@@ -1,0 +1,47 @@
+.modalbg {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  cursor: pointer;
+}
+.modal-content {
+  width: 47vw;
+  margin: auto;
+  height: 95vh;
+  background-color: var(--postbg);
+  padding: 6vh 1vw;
+  border: 1px solid var(--seccolor);
+  border-radius: 15px;
+  position: fixed;
+  cursor: default;
+}
+.modal-content h1 {
+  font-size: 1.7rem;
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+.modal-content h4 {
+  margin: 2vh 0 10vh 0;
+  text-align: center;
+}
+.modal-content p {
+  width: 80%;
+  margin: auto;
+  padding: 2vh 0;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+@media (max-width: 1000px) {
+  .modal-content {
+    width: 95vw;
+    height: 90vh;
+    overflow-y: scroll;
+  }
+}

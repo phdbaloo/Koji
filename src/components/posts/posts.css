@@ -1,0 +1,32 @@
+.posts-body {
+  width: 80%;
+  margin: 4vh auto;
+  padding: 2vh 4vh;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid var(--seccolor);
+  border-radius: 15px;
+  transition: 0.5s ease;
+}
+.posts-body h3 {
+  font-size: 1.3rem;
+  padding: 1vh 0;
+}
+.posts-body p {
+  font-size: 1rem;
+}
+.posts-body:hover {
+  border: 1px solid var(--seccolor);
+  background-color: var(--seccolor);
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+@media (max-width: 1000px) {
+  .posts-body {
+    width: 95%;
+    height: 30vh;
+  }
+}

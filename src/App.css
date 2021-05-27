@@ -1,0 +1,8 @@
+.app {
+  background-color: var(--maincolor);
+  padding: 4vh;
+  color: var(--textcolor);
+}
+.app-top {
+  display: flex;
+}
